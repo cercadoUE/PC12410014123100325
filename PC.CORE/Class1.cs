@@ -1,4 +1,4 @@
-﻿namespace PC1.CORE
+﻿namespace PC.CORE
 {
     public class Class1
     {

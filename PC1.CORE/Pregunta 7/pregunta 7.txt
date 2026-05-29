@@ -1,0 +1,14 @@
+a. ¿Qué dificultades tuviste durante el scaffolding y cómo las solucionaste?
+El principal problemas fue que la carpetas creadas como Core Entities se creaban en en la capa de presentación, pero la solucióbn era simple, cambiar a la biblioteca de clases, para que se crearan ahí.
+
+b. ¿Qué diferencias notaste entre usar un controlador autogenerado y uno con repository? ¿Qué enfoque prefieres?
+Preferible es el controlador automatico, porque te ahorra mucho trabajo al generarse automaticamente directamente con el DbContext.
+La diferencia con el repository es que te permite tener un mayor control de este apartado, controlar mejor la logica de los controladores.
+Se usaron nombre intuitivos para las clases y carpetas
+
+c. ¿Qué buenas prácticas implementaste (en código real) y por qué?
+Primero que nada la separación de la WebAPI y la biblioteca de clases, y una buena estructuracion del proyecto por carpetas.
+También utilicé los DTOs para no exponer las entidades de base de datos y controlar mejor la información enviada y recibida por los endpoints.
+
+d. ¿Usaste herramientas de IA en esta práctica? (Tranquilo(a) que si es válido) ¿Qué herramientas usaste y en que parte del proyecto?
+Sí se uso IA, principalmente Chat GPT y el asistente de visual studio, visual para generar los codigos, pero como los generaba con ciertos errores, nos apoyamos en Chatgpt para corregir los errores generados o explicarlos
